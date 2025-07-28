@@ -46,7 +46,7 @@ cardbox.textContent ="Cards: " + firstcard +" "+ secondcard
 
 function newCard(){
     let card = 6
-    sum = sum +card
+    // sum = sum +card
     sum+=card
     startGame()
 }
