@@ -30,5 +30,8 @@ console.log(message)
     console.log(message)
 }
 
-messagebox.textContent = message
 
+
+function startGame(){
+messagebox.textContent = message
+}
