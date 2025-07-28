@@ -41,5 +41,12 @@ messagebox.textContent = message
 sumbox.textContent ="Sum: " +sum
 cardbox.textContent ="Cards: " + firstcard +" "+ secondcard
 
+}
 
+
+function newCard(){
+    let card = 6
+    sum = sum +card
+    sum+=card
+    startGame()
 }
