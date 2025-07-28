@@ -4,6 +4,7 @@ let sum = firstcard + secondcard
 let hasBlackJack = false;
 let isALive = true
 let message =""
+let messagebox = document.getElementById("message-el")
 
 
 // console.log(sum)
@@ -28,4 +29,6 @@ console.log(message)
     message="You can get a new card"
     console.log(message)
 }
+
+messagebox.textContent = message
 
