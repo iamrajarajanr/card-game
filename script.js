@@ -5,12 +5,6 @@ let sum = firstcard + secondcard
 
 
 
-
-
-
-
-
-
 console.log(sum)
 
 
