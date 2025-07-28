@@ -5,6 +5,8 @@ let hasBlackJack = false;
 let isALive = true
 let message =""
 let messagebox = document.getElementById("message-el")
+let sumbox = document.getElementById("sum-el")
+let cardbox = document.getElementById("cards-el")
 
 
 // console.log(sum)
@@ -36,4 +38,8 @@ console.log(message)
 }
 
 messagebox.textContent = message
+sumbox.textContent ="Sum: " +sum
+cardbox.textContent ="Cards: " + firstcard +" "+ secondcard
+
+
 }
