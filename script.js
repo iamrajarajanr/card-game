@@ -1,21 +1,20 @@
-let firstcard = 5
-let secondcard = 5
-
-let sum = firstcard + secondcard
-
+// let firstcard = 5
+// let secondcard = 5
+// let sum = firstcard + secondcard
 
 
-console.log(sum)
+
+// console.log(sum)
 
 
- if (sum > 21){
-    console.log("You are out of the game")
- }
+//  if (sum > 21){
+//     console.log("You are out of the game")
+//  }
 
- else if (sum === 21){
-    console.log("You won blackjack")
- }
+//  else if (sum === 21){
+//     console.log("You won blackjack")
+//  }
 
- else {
-    console.log("You can get a new card")
- }
+//  else {
+//     console.log("You can get a new card")
+//  }

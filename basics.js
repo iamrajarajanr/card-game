@@ -51,4 +51,18 @@
 //  else {
 //     console.log("You can get a new card")
 //  }
+let hasDiscountCode = true
 
+function name (){
+    if (hasDiscountCode){
+        console.log("You can get 30% offer")
+        hasDiscountCode = false
+        console.log(hasDiscountCode)
+    }
+
+    else{
+        console.log("Sorry you dont have a coupon")
+    }
+}
+
+name()
