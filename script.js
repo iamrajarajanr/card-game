@@ -1,16 +1,16 @@
-// let firstcard = 5
-// let secondcard = 5
+let firstcard = 5
+let secondcard = 5
 
-// let sum = firstcard + secondcard
-
-
+let sum = firstcard + secondcard
 
 
 
 
 
 
-let sum = 20
+
+
+
 console.log(sum)
 
 
