@@ -12,19 +12,15 @@ let isALive = true
  if (sum > 21){
     console.log("You are out of the game")
     isALive=false
-
- }
+    
+}
 
  else if (sum === 21 ){
     console.log("You won blackjack")
     hasBlackJack = true;
-
-
- }
+}
 
  else {
     console.log("You can get a new card")
-
-
- }
+}
 
