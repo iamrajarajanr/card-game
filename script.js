@@ -11,6 +11,11 @@ let messagebox = document.getElementById("message-el")
 // console.log("global scope", hasBlackJack)
 
 
+
+
+
+function startGame(){
+
  if (sum > 21){
     message = "You are out of the game"
 console.log(message)
@@ -30,8 +35,5 @@ console.log(message)
     console.log(message)
 }
 
-
-
-function startGame(){
 messagebox.textContent = message
 }
