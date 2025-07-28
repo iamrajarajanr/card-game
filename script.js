@@ -3,6 +3,7 @@ let secondcard = 1
 let sum = firstcard + secondcard
 let hasBlackJack = false;
 let isALive = true
+let message =""
 
 
 // console.log(sum)
@@ -10,17 +11,21 @@ let isALive = true
 
 
  if (sum > 21){
-    console.log("You are out of the game")
+    message = "You are out of the game"
+console.log(message)
     isALive=false
-    
+
+
 }
 
  else if (sum === 21 ){
-    console.log("You won blackjack")
+    message="You won blackjack"
     hasBlackJack = true;
+    console.log(message)
 }
 
  else {
-    console.log("You can get a new card")
+    message="You can get a new card"
+    console.log(message)
 }
 
