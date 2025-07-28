@@ -51,18 +51,20 @@
 //  else {
 //     console.log("You can get a new card")
 //  }
-let hasDiscountCode = true
 
-function name (){
-    if (hasDiscountCode){
-        console.log("You can get 30% offer")
-        hasDiscountCode = false
-        console.log(hasDiscountCode)
-    }
+// let hasDiscountCode = true
 
-    else{
-        console.log("Sorry you dont have a coupon")
-    }
-}
+// function name (){
+//     if (hasDiscountCode){
+//         console.log("You can get 30% offer")
+//         hasDiscountCode = false
+//         console.log(hasDiscountCode)
+//     }
 
-name()
+//     else{
+//         console.log("Sorry you dont have a coupon")
+//     }
+// }
+
+// name()
+// name()
