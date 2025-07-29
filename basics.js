@@ -162,6 +162,6 @@
 
 
 
-let randomNumber = Math.floor(Math.random()*3)
+let randomNumber = Math.floor(Math.random()*10)
 console.log(randomNumber)
 
