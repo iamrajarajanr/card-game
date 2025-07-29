@@ -76,3 +76,17 @@
 // console.log(3 >= 3)
 // console.log(11 <= 11)
 // console.log(3 <= 2)
+
+// let data = ["orange","apple",true,false,123]
+// console.log(data)
+// console.log(data[0])
+// console.log(data[1])
+// console.log(data[2])
+// console.log(data[3])
+// console.log(data[4])
+// console.log(data[5])
+
+
+let data = ["orange","apple",["cat",["human"],"dog","tiger"],true,false,123]
+console.log(data [2][1][0])
+
