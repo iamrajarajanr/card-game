@@ -162,6 +162,13 @@
 
 
 
-let randomNumber = Math.floor(Math.random()*2)+1
-console.log(randomNumber)
+// let randomNumber = Math.floor(Math.random()*2)+1
+// console.log(randomNumber)
 
+
+function rollDice(){
+    let randomDiceNumber = Math.floor(Math.random()*6)+1
+    return randomDiceNumber
+}
+
+console.log(rollDice())
