@@ -90,14 +90,14 @@
 // let data = ["orange","apple",["cat",["human"],"dog","tiger"],true,false,123]
 // console.log(data [2][1][0])
 
-let card = [4,10]
+// let card = [4,10]
 
-card.push ("hello", 101)
-console.log(card)
+// card.push ("hello", 101)
+// console.log(card)
 
-card.pop()
-console.log(card)
+// card.pop()
+// console.log(card)
 
-let newItem = ["hey i am a array"]
-card.push(newItem)
-console.log(card)
+// let newItem = ["hey i am a array"]
+// card.push(newItem)
+// console.log(card)
