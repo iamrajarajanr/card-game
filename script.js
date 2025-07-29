@@ -13,10 +13,13 @@ let cardbox = document.getElementById("cards-el")
 // console.log("global scope", hasBlackJack)
 
 
-
-
-
 function startGame(){
+    renderGame();
+}
+
+
+function renderGame(){
+
 
  if (sum > 21){
     message = "You are out of the game"
@@ -48,5 +51,5 @@ function newCard(){
     let card = 6
     // sum = sum +card
     sum+=card
-    startGame()
+    renderGame()
 }
