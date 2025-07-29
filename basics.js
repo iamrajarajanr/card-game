@@ -101,3 +101,11 @@
 // let newItem = ["hey i am a array"]
 // card.push(newItem)
 // console.log(card)
+
+for (let count = 1; count <10; count = count +2){
+    console.log(count)
+}
+
+for (let count = 1; count <=17; count +3){
+    console.log(count)
+}
