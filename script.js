@@ -20,6 +20,10 @@ function startGame(){
 
 
 function renderGame(){
+    cardbox.textContent = "Cards: ";
+    for (i = 0; i < cards.length; i++){
+        cardbox.textContent += cards[i] + " ";
+    }
 
 
  if (sum > 21){
@@ -43,7 +47,7 @@ console.log(message)
 
 messagebox.textContent = message
 sumbox.textContent ="Sum: " +sum
-cardbox.textContent ="Cards: " + cards[0] +" "+ cards[1]
+// cardbox.textContent ="Cards: " + cards[0] +" "+ cards[1]
 
 }
 
@@ -53,6 +57,7 @@ function newCard(){
     // sum = sum +card
     sum+=card
     cards.push (card)
-
     renderGame()
+
+
 }

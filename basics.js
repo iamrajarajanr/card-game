@@ -118,8 +118,19 @@
 //     console.log(count)
 // }
 
-let emojis = ["smile", "cool","blessed","angry","smile","laugh","new1","new2","new3"]
+// let emojis = ["smile", "cool","blessed","angry","smile","laugh","new1","new2","new3"]
 
-for (let i = 0; i < emojis.length; i++){
-    console.log(emojis[i]);
-}
+// for (let i = 0; i < emojis.length; i++){
+//     console.log(emojis[i]);
+// }
+//
+// let sen = ["Good Morning","Get there soon","Js is cool","React is fun","had dinner?"]
+
+// for (let i = 0; i < sen.length; i++){
+//     console.log(sen[i]);
+// }
+
+// for (let i = 0; i < sen.length; i++){
+//     const dummyPtag = document.getElementById("dummy")
+//     dummyPtag.textContent += sen[i] + " ";
+// }
