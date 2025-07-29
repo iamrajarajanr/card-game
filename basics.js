@@ -157,5 +157,5 @@ function mult(){
     return a * b;
 }
 
-let finalResult = mul();
+let finalResult = mult();
 console.log(finalResult);
