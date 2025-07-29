@@ -166,9 +166,9 @@
 // console.log(randomNumber)
 
 
-function rollDice(){
-    let randomDiceNumber = Math.floor(Math.random()*6)+1
-    return randomDiceNumber
-}
+// function rollDice(){
+//     let randomDiceNumber = Math.floor(Math.random()*6)+1
+//     return randomDiceNumber
+// }
 
-console.log(rollDice())
+// console.log(rollDice())

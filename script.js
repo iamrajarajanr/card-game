@@ -19,7 +19,8 @@ function startGame(){
 }
 
 function getRandomCard(){
-    return 5;
+    let randomCardNumber = Math.floor(Math.random()*13)+1
+    return randomCardNumber
 }
 
 
