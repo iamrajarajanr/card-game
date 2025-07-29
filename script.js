@@ -20,7 +20,19 @@ function startGame(){
 
 function getRandomCard(){
     let randomCardNumber = Math.floor(Math.random()*13)+1
-    return randomCardNumber
+    // return randomCardNumber
+    if (randomCardNumber === 1){
+        return 11
+    }
+
+
+    else if (randomCardNumber > 10){
+        return 10
+    }
+
+    else {
+        return randomCardNumber
+    }
 }
 
 
