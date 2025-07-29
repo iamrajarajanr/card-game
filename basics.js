@@ -118,3 +118,8 @@
 //     console.log(count)
 // }
 
+let emojis = ["smile", "cool","blessed","angry","smile","laugh","new1","new2","new3"]
+
+for (let i = 0; i < emojis.length; i++){
+    console.log(emojis[i]);
+}
