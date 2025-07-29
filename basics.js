@@ -134,3 +134,28 @@
 //     const dummyPtag = document.getElementById("dummy")
 //     dummyPtag.textContent += sen[i] + " ";
 // }
+
+function helper(){
+    let age = 45
+
+    if (age < 30){
+        return "you are eligible to write exam";
+    }
+
+    else{
+        return "you are notttt eligible to write exam"
+    }
+}
+
+let messageFromFn = helper();
+console.log(messageFromFn)
+
+let a = 3
+let b = 6
+
+function mult(){
+    return a * b;
+}
+
+let finalResult = mul();
+console.log(finalResult);
