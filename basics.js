@@ -172,3 +172,39 @@
 // }
 
 // console.log(rollDice())
+
+
+
+// let actionMovie = true
+// let TomCruiseMovie = true
+
+// if(actionMovie === true && TomCruiseMovie === true){
+//     console.log("Mission Impossible loading")
+// }
+
+// else{
+//     console.log("Other action films are displayed")
+// }
+
+
+
+// let actionMovie = true
+// let TomCruiseMovie = true
+
+// if(actionMovie === true || TomCruiseMovie === true){
+//     console.log("Mission Impossible loading")
+// }
+
+// else{
+//     console.log("Other action films are displayed")
+// }
+
+
+ let fruits = ["apple", "orange"]
+ console.log(fruits)
+
+ fruits.shift();
+ console.log(fruits)
+
+ fruits.unshift("iam raj")
+ console.log(fruits)
